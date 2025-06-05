@@ -5,8 +5,8 @@ public class Session6HomeWork {
             Plane plane1 = new Plane();
 
             plane1.flightId = "AA-101";
-            plane1.currentPassengersSet = "100";
-            plane1.maxPassengersSet = "15";
+            plane1.currentPassengersSet = "15";
+            plane1.maxPassengersSet = "100";
 
             System.out.println("flight ID: " + plane1.flightId + " | currentPassengersSet: " + plane1.currentPassengersSet + " | maxPassengersSet: " + plane1.maxPassengersSet);
         }
