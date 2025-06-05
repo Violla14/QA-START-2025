@@ -20,7 +20,7 @@ public class Session3 {
             boolean elementsSwitched = false;
             for (int i = 1; i < hotelRooms.length; i++) {
                 int currentElement = hotelRooms[i];//8
-                int previousElement = hotelRooms[i - 1];//1
+                int previousElement= hotelRooms[i - 1];//1
 
                 if (previousElement > currentElement) {
                     elementsSwitched = true;
@@ -34,7 +34,6 @@ public class Session3 {
                 }
             }
         }
-
 
 
 //        for (int i = 0; i < hotelRooms.length; i++) {
@@ -64,5 +63,5 @@ public class Session3 {
 //            System.out.println(j);
 //            j++;
 //        }
+        }
     }
-}
