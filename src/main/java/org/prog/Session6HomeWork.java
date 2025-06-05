@@ -5,11 +5,11 @@ public class Session6HomeWork {
             Plane plane1 = new Plane();
 
             plane1.flightId = "AA-101";
-            plane1.currentPassengersSet = "15";
-            plane1.maxPassengersSet = "100";
+            plane1.busyPassengersSets = "15";
+            plane1.maxPassengersSets = "100";
             System.out.println("flight ID: " + plane1.flightId
-                    + " | currentPassengersSet: " + plane1.currentPassengersSet
-                    + " | maxPassengersSet: " + plane1.maxPassengersSet);
+                    + " | busyPassengersSet: " + plane1.busyPassengersSets
+                    + " | maxPassengersSet: " + plane1.maxPassengersSets);
             plane1.goTo("London");
 
         }
